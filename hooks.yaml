@@ -5,6 +5,13 @@
     language: system
     files: \.rs$
     args: []
+-   id: test
+    name: test
+    description: Run all Tests w/ Cargo
+    entry: cargo test
+    language: system
+    files: \.rs$
+    args: []
 -   id: cargo-check
     name: cargo check
     description: Check the package for errors.
