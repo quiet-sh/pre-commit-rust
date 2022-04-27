@@ -5,6 +5,14 @@
   language: system
   types: [rust]
   args: ["--"]
+- id: test
+  name: test
+  description: Runs test suite.
+  entry: cargo test
+  language: system
+  args: ["--"]
+  types: [rust]
+  pass_filenames: false
 - id: cargo-check
   name: cargo check
   description: Check the package for errors.
